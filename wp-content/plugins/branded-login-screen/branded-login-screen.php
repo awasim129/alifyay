@@ -51,7 +51,7 @@ define( 'BLS_FULL_SCREEN',  true ); // if using a repeatable background image, s
 
 define( 'BLS_BG_IMG',       'SiteBG.jpg' ); // place your 'background'      image in the '/assets/i/background_image' folder.
 define( 'BLS_HDR_LOGO',     'header.png' );      // place your 'header logo'     image in the '/assets/i/logo_main'        folder.
-define( 'BLS_RHDR_LOGO',    'header-sm.png' );   // place your 'responsive logo' image in the '/assets/i/logo_responsive'  folder.
+define( 'BLS_RHDR_LOGO',    'header.png' );   // place your 'responsive logo' image in the '/assets/i/logo_responsive'  folder.
 
 /* --------------------------------------------------------------------------------------------- */
 

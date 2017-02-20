@@ -46,12 +46,23 @@ function electro_vc_products_cards_carousel_block( $atts, $content = null ) {
 
 	if( ! empty( $cat_include ) ) {
 		$cat_include = explode( ",", $cat_include );
-		$categories_args['include'] = $cat_include;
+		$categories_args['orderby'] = 'include';
 	}
 
 	if( ! empty( $cat_slugs ) ) {
 		$cat_slugs = explode( ",", $cat_slugs );
 		$categories_args['slug'] = $cat_slugs;
+
+		$cat_include = array();
+
+		foreach ( $cat_slugs as $cat_slug ) {
+			$cat_include[] = "'" . $cat_slug ."'";
+		}
+
+		if ( ! empty($cat_include ) ) {
+			$categories_args['include'] = $cat_include;
+			$categories_args['orderby'] = 'include';
+		}
 	}
 
 	$args = array(

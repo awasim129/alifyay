@@ -346,7 +346,7 @@ if ( ! function_exists( 'electro_register_required_plugins' ) ) {
 				'slug'					=> 'electro-extensions',
 				'source'				=> get_template_directory() . '/assets/plugins/electro-extensions.zip',
 				'required'				=> false,
-				'version'				=> '1.2.11',
+				'version'				=> '1.2.14',
 				'force_activation'		=> false,
 				'force_deactivation'	=> false,
 				'external_url'			=> '',

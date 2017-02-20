@@ -110,7 +110,7 @@ if ( ! function_exists( 'footer_newsletter_form' ) ) {
 	}
 }
 
-if ( ! function_exists( 'electro_footer_contact_info' ) ) {
+if ( ! function_exists( 'electro_footer_contact' ) ) {
 	/**
 	 * Electro Contact Info Block at the footer
 	 */

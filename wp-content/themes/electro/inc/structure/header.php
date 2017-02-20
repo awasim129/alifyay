@@ -20,7 +20,6 @@ if ( ! function_exists( 'electro_enqueue_styles' ) ) {
 			'fontawesome'	=> 'font-awesome.min.css',
 			'animate'		=> 'animate.min.css',
 			'font-electro'	=> 'font-electro.css'
-
 		) );
 
 		foreach( $css_vendors as $handle => $css_file ) {

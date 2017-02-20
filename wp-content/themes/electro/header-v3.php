@@ -19,6 +19,7 @@ add_action( 'electro_before_content',		'electro_primary_navbar', 	10 );
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>

@@ -5,7 +5,7 @@
  * Description:    	This selection of extensions compliment our lean and mean theme for WooCommerce, Electro. Please note: they don’t work with any WordPress theme, just Electro.
  * Author:         	Transvelo
  * Author URL:     	http://transvelo.com/
- * Version:        	1.2.11
+ * Version:        	1.2.16
  * Text Domain: 	electro-extensions
  * Domain Path: 	/languages
  */

@@ -614,7 +614,7 @@
 		}
 
 		// If we're in hand-held navigation...
-		if( electro_options.enable_sticky_header == '1' ) {
+		if( electro_options.enable_sticky_header == '1' && $( "#page" ).find( '.handheld-navbar-toggle-buttons' ).length > 0 ) {
 			var sticky_hh_nav = new Waypoint.Sticky({
 				element: $('.handheld-navbar-toggle-buttons')[0]
 			});

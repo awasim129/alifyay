@@ -5,7 +5,7 @@ Theme URI:          http://demo2.transvelo.in/electro/
 Author:             Transvelo
 Author URI:         http://www.transvelo.com
 Description:        Electro is a robust and flexible WordPress theme, designed by Transvelo to help you make the most out of using WooCommerce to power your online store. The design is well suited for Electronics Store, Vendor based marketplaces, affiliate websites. It is built and comes bundled with most of the advanced features available in most popular eCommerce websites like amazon, flipkart, snapdeal, walmart, alibaba, aliexpress, etc.
-Version:            1.2.12
+Version:            1.2.16
 GitHub Theme URI:   https://github.com/Transvelo/electro
 GitHub Branch:      theme
 License:            GNU General Public License v2 or later
@@ -610,12 +610,14 @@ fieldset {
         width: 25%;
         left: 75%; } }
 
+.error404 #content #primary,
 .page-template-template-homepage-v1 #content #primary,
 .page-template-template-homepage-v3 #content #primary,
 .page-template-default #content #primary,
 .full-width #content #primary {
   padding-right: 0; }
   @media (min-width: 768px) {
+    .error404 #content #primary,
     .page-template-template-homepage-v1 #content #primary,
     .page-template-template-homepage-v3 #content #primary,
     .page-template-default #content #primary,
@@ -3833,7 +3835,7 @@ div.quantity.buttons_added {
         background-color: transparent; }
   .top-bar .nav-inline .menu-item .dropdown-menu {
     top: 30px;
-    z-index: 1010; }
+    z-index: 1060; }
     .top-bar .nav-inline .menu-item .dropdown-menu .menu-item {
       display: block; }
       .top-bar .nav-inline .menu-item .dropdown-menu .menu-item:before {

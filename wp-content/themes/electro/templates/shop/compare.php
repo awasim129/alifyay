@@ -35,7 +35,7 @@ global $product, $yith_woocompare, $post; ?>
                                     if( has_post_thumbnail( $product->post->ID ) ) {
                                         echo get_the_post_thumbnail( $product->post->ID, 'shop_catalog' );
                                     } elseif( wc_placeholder_img_src() ) {
-                                        echo wc_placeholder_img_src( 'shop_catalog' );
+                                        echo wc_placeholder_img( 'shop_catalog' );
                                     }
                                 ?>
                             </div>

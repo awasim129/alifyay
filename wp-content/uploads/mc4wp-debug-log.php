@@ -4,3 +4,7 @@
 [2017-01-24 16:13:27] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
 [2017-01-24 18:39:24] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
 [2017-01-24 18:40:29] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
+[2017-02-19 15:54:21] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
+[2017-02-19 15:54:41] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
+[2017-02-19 15:55:35] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.
+[2017-02-19 15:58:13] ERROR: Form 3189 > MailChimp API error: 404 Not Found. The requested resource could not be found.

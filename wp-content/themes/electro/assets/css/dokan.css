@@ -582,12 +582,14 @@ fieldset {
         width: 25%;
         right: 75%; } }
 
+.error404 #content #primary,
 .page-template-template-homepage-v1 #content #primary,
 .page-template-template-homepage-v3 #content #primary,
 .page-template-default #content #primary,
 .full-width #content #primary {
   padding-left: 0; }
   @media (min-width: 768px) {
+    .error404 #content #primary,
     .page-template-template-homepage-v1 #content #primary,
     .page-template-template-homepage-v3 #content #primary,
     .page-template-default #content #primary,
